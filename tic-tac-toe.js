@@ -1,9 +1,9 @@
 "use strict";
 window.onload = function(){
-   var items = document.getElementById("board").children;
+   var item = document.getElementById("board").children;
 
-   for (var a = 0; i < items.length; a++){
-       items[a].classList.add('.square');
+   for (var a = 0; a < item.length; a++){
+       item[a].classList.add('.square');
    }
 
 }
